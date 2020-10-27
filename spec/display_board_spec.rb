@@ -1,7 +1,4 @@
 require_relative '../lib/display_board'
-puts 'Welcome to Tic Tac Toe'
-board = [" ", " ", " ", " ", " ", " ", " ", " ", " "]
-play(board)
 
 describe '/lib/display_board.rb' do
   it 'defines a method display_board' do
